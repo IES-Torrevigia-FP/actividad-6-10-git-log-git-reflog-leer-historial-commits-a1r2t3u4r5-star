@@ -1,0 +1,8 @@
+121fe2c HEAD@{6}: commit: Añade funcionalidad B
+
+##Usé este comando:
+
+git branch feature-b-recuperada 121fe2c
+
+##EXPLICACIÓN 
+git reflog es útil porque permite recuperar commits que ya no están en ninguna rama visible. Aunque borré la rama feature-b, el commit seguía existiendo en el historial interno de Git, y gracias a reflog pude encontrar su hash y crear una nueva rama apuntando a él.
