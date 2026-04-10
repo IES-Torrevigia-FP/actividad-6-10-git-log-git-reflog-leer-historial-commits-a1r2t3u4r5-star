@@ -1,0 +1,36 @@
+#artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git log --oneline
+8afe71d (HEAD -> main) Merge feature-a resolviendo conflicto en historia.md
+65af1fd Actualiza main antes de integrar A
+38a4e37 (feature-a) Añade funcionalidad A
+3ec153d Commit inicial
+a3f9c1e (origin/main, origin/HEAD) add deadline
+c196b2a Initial commit
+#artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git log --oneline --graph
+*   8afe71d (HEAD -> main) Merge feature-a resolviendo conflicto en historia.md
+|\  
+| * 38a4e37 (feature-a) Añade funcionalidad A
+* | 65af1fd Actualiza main antes de integrar A
+|/  
+* 3ec153d Commit inicial
+* a3f9c1e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+#artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git log --oneline --graph --decorate --all
+*   8afe71d (HEAD -> main) Merge feature-a resolviendo conflicto en historia.md
+|\  
+| * 38a4e37 (feature-a) Añade funcionalidad A
+* | 65af1fd Actualiza main antes de integrar A
+|/  
+| * 121fe2c (feature-b) Añade funcionalidad B
+|/  
+* 3ec153d Commit inicial
+* a3f9c1e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+##El contenido
+
+artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git config --global alias.lg
+log --oneline --graph --decorate --all
+
+##EXPLICACIÓN 
+La vista más útil es --oneline --graph --decorate --all porque muestra el historial de forma visual, resumida y permite entender fácilmente cómo se relacionan las ramas.En dos palabras muestra todo

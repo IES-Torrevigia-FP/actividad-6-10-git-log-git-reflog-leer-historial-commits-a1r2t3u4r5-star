@@ -1,0 +1,15 @@
+8afe71d (HEAD -> main) HEAD@{0}: commit (merge): Merge feature-a resolviendo conflicto en historia.md
+65af1fd HEAD@{1}: commit: Actualiza main antes de integrar A
+3ec153d HEAD@{2}: checkout: moving from feature-b to main
+121fe2c (feature-b) HEAD@{3}: commit: Añade funcionalidad B
+3ec153d HEAD@{4}: checkout: moving from main to feature-b
+3ec153d HEAD@{5}: checkout: moving from feature-a to main
+38a4e37 (feature-a) HEAD@{6}: commit: Añade funcionalidad A
+3ec153d HEAD@{7}: checkout: moving from main to feature-a
+3ec153d HEAD@{8}: commit: Commit inicial
+a3f9c1e (origin/main, origin/HEAD) HEAD@{9}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-a1r2t3u4r5-star.git
+
+
+
+##EXPLICACIÓN 
+La diferencia entre git log y git reflog es que git log muestra el historial de commits de las ramas actuales, mientras que git reflog registra todos los movimientos de HEAD, como cambios de rama, commits o merges, incluso si esos commits ya no están en ninguna rama visible.
