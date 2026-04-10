@@ -1,0 +1,27 @@
+artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git log --oneline
+5221fd1 (HEAD -> main) Terminado la parte 4
+962b1a4 Añade los archivos antes de hacer la parte 4
+8afe71d Merge feature-a resolviendo conflicto en historia.md
+65af1fd Actualiza main antes de integrar A
+38a4e37 (feature-a) Añade funcionalidad A
+3ec153d Commit inicial
+a3f9c1e (origin/main, origin/HEAD) add deadline
+c196b2a Initial commit
+artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git reset --hard 65af1fd
+HEAD está ahora en 65af1fd Actualiza main antes de integrar A
+artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git log --oneline
+65af1fd (HEAD -> main) Actualiza main antes de integrar A
+3ec153d Commit inicial
+a3f9c1e (origin/main, origin/HEAD) add deadline
+c196b2a Initial commit
+
+
+##Que me ayudó
+
+5221fd1 HEAD@{1}: commit: Terminado la parte 4
+
+##Comando
+
+artur@artur-VirtualBox:~/dev/actividad-6-10-log-reflog$ git reset --hard 5221fd1
+HEAD está ahora en 5221fd1 Terminado la parte 4
+
